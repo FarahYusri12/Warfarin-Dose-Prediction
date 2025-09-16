@@ -28,8 +28,11 @@ Follow the steps below to reproduce the analysis:
 
 
 2. Download the dataset
+   
+   [Click here to download the dataset](https://github.com/FarahYusri12/Warfarin-Dose-Prediction/blob/main/Warfarin_gen_clinic.csv?raw=true&download=1)
 
-3. Upload the dataset:
+   - The file will automatically be saved as **Warfarin_gen_clinic**
+4. Upload the dataset:
    - Run the following cell in the notebook:
      ```python
      from google.colab import files
@@ -37,10 +40,10 @@ Follow the steps below to reproduce the analysis:
      ```
    - Choose the CSV file from your computer when prompted.
 
-4. Run the remaining cells **step by step** after uploading the file.
+5. Run the remaining cells **step by step** after uploading the file.
    > ⚠️ Note: “Run All” will not work because the file upload requires manual input.
 
-5. Outputs:
+6. Outputs:
    - Preprocessed dataset
    - Regression model results
    - Feature importance graph
