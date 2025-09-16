@@ -17,9 +17,36 @@ In this project;
 
 -Analyzed the relative importance of each feature including genetic and clinical factors in dose prediction.
 
-## Key Findings
-The model achieved an R2 score of 0.40, meaning it can explain 40% of the variablility in warfarin dosage.
+## How To Run The Code
 
-The feaature importance analysis revealed that genetic factors such as CYP2C9 and VKORC1 are the most dominant determinants in dose prediction.
+This project was developed and tested using **Google Colab**.  
+Follow the steps below to reproduce the analysis:
+
+1. Open the notebook in Google Colab:
+   - Upload the `Warfarin_Dose_Prediction.ipynb` file to your Google Drive
+   - Right-click → *Open with* → *Google Colaboratory*
+
+2. Upload the dataset:
+   - Run the following cell in the notebook:
+     ```python
+     from google.colab import files
+     uploaded = files.upload()
+     ```
+   - Choose the CSV file from your computer when prompted.
+
+3. Run the remaining cells **step by step** after uploading the file.
+   > ⚠️ Note: “Run All” will not work because the file upload requires manual input.
+
+4. Outputs:
+   - Preprocessed dataset
+   - Regression model results
+   - Feature importance graph
+   - Visualizations of predicted vs actual doses
+
+
+## Key Findings
+The model achieved an R2 score of 0.46, meaning it can explain 46% of the variablility in warfarin dosage.
+
+The feaature importance analysis revealed that genetic factor which is VKORC1 are the most dominant determinants in dose prediction.
 
 Some of the model's findings, such as the relationship between gender and dose, contradicted with the existing knowledge. Emphasizing the importance of crtically evaluating model outputs with domain expertise.
