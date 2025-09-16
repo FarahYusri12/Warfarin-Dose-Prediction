@@ -1,10 +1,10 @@
 # Warfarin Dose Prediction
 
 ## Introduction
-This project aims to develop a linear regression model that have ability to predicts the optimal warfarin dose by utilized both clinical and genetic factors. The model serves as a proof-of-concept to signifies the technical skills in data preprocessing, regerssion modelling, and performace evaluation.
+This project aims to develop a linear regression model that have ability to predicts the optimal warfarin dose by utilized both clinical and genetic factors. The model serves as a proof-of-concept to signifies the technical skills in data preprocessing, regression modelling, and performance evaluation.
 
 ## Data
-The dataset used in the project was obtained from the International Warfarin Pharmacogenetics Consortium (IWPC). The data includes patient's information such as age, gender, weight, height, warfarin dose and, CYP2C9 and VKORC1 genotypes.
+The dataset used in the project was obtained from the International Warfarin Pharmacogenetics Consortium (IWPC). The data includes patient's information such as age, gender, weight, height, warfarin dose and, CYP2C9 (rs1799853, rs1057910) and VKORC1 (rs9923231) genotypes.
 
 ## Analysis
 In this project;
@@ -61,6 +61,6 @@ Warfarin-Dose-Prediction/
 
 ## Project Report
 
-You van read full report here:
+You can read full report here:
 
-[View Report (pdf)](
+[View Report (pdf)](https://github.com/FarahYusri12/Warfarin-Dose-Prediction/blob/main/Report.pdf)
