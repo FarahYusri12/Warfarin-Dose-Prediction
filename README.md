@@ -23,8 +23,7 @@ This project was developed and tested using **Google Colab**.
 Follow the steps below to reproduce the analysis:
 
 1. Open the notebook in Google Colab:
-   - Upload the `Warfarin_Dose_Prediction.ipynb` file to your Google Drive
-   - Right-click → *Open with* → *Google Colaboratory*
+ 
    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FarahYusri12/Warfarin-Dose-Prediction/blob/main/Warfarin_dosing(ML).ipynb)
 
 
