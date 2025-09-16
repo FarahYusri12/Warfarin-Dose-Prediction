@@ -58,3 +58,9 @@ Warfarin-Dose-Prediction/
 │── LICENSE # License information
 │── Report.pdf # Full project report
 ```
+
+## Project Report
+
+You van read full report here:
+
+[View Report (pdf)](
