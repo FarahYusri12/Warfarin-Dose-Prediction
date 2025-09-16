@@ -46,3 +46,15 @@ The model achieved an R2 score of 0.46, meaning it can explain 46% of the varia
 The feaature importance analysis revealed that genetic factor which is VKORC1 are the most dominant determinants in dose prediction.
 
 Some of the model's findings, such as the relationship between gender and dose, contradicted with the existing knowledge. Emphasizing the importance of crtically evaluating model outputs with domain expertise.
+
+## Repository Structure
+
+```
+Warfarin-Dose-Prediction/
+│── Warfarin_dosing(ML).ipynb # Jupyter notebook (Google Colab compatible)
+│── Warfarin_gen_clinic.csv # Dataset used for training and analysis
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
+│── LICENSE # License information
+│── Report.pdf # Full project report
+```
