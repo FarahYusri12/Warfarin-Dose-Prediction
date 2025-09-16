@@ -64,3 +64,12 @@ Warfarin-Dose-Prediction/
 You can read full report here:
 
 [View Report (pdf)](https://github.com/FarahYusri12/Warfarin-Dose-Prediction/blob/main/Report.pdf)
+
+## Requirements
+
+To install dependencies locally , run
+
+```
+bash
+pip install -r requirements.txt
+```
